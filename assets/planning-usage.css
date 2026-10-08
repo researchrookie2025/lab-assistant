@@ -1,0 +1,151 @@
+.usage-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding: 17px 0 9px; border-top: 1px solid #667382; margin-top: 5px; }
+.phd .usage-actions { border-color: #667382; }
+.usage-open,.usage-history-open { min-height: 38px; padding: 7px 12px; border: 1px solid #667382; border-radius: 5px; background: #667382; color: #667382; font: inherit; font-size: 13px; }
+.phd .usage-open { border-color: #667382; background: #667382; color: #667382; }
+.usage-history-open { padding-inline: 0; border-color: transparent; background: transparent; color: #667382; }
+.phd .usage-history-open { color: #667382; }
+.usage-dialog { --usage-accent: #206bc4; --usage-edge: #dce1e7; --usage-wash: #fff; --usage-ink: #243448; box-sizing: border-box; width: min(760px, calc(100vw - 40px)); max-width: calc(100vw - 40px); max-height: calc(100dvh - 40px); padding: 0; border: 1px solid var(--usage-edge); border-radius: 14px; background: #fff; color: var(--usage-ink); font-family: inherit; box-shadow: 0 24px 90px #18243322; overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; }
+.usage-dialog.phd { --usage-accent: #206bc4; --usage-edge: #dce1e7; --usage-wash: #fff; background: #fff; }
+.usage-dialog::backdrop { background: #18243355; backdrop-filter: blur(5px); }
+.usage-dialog *, .usage-dialog *::before, .usage-dialog *::after { box-sizing: border-box; }
+.usage-shell { min-width: 0; }
+.usage-heading { position: sticky; top: 0; z-index: 2; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 17px 22px; border-bottom: 1px solid var(--usage-edge); background: #f8fafc; }
+.phd .usage-heading { background: #f8fafc; }
+.usage-eyebrow { margin: 0 0 6px; color: var(--usage-accent); font-size: 12px; letter-spacing: 1px; }
+.usage-heading h2 { margin: 0; font-size: 20px; font-weight: 600; line-height: 1.4; }
+.usage-close { display: flex; flex-shrink: 0; align-items: center; gap: 12px; min-height: 40px; padding: 8px 12px; border: 1px solid var(--usage-edge); border-radius: 5px; background: transparent; color: var(--usage-ink); font: inherit; font-size: 13px; }
+.usage-close span { font-size: 22px; line-height: 1; }
+.usage-content { min-width: 0; padding: 17px 22px 22px; }
+.usage-context { margin: 0 0 16px; color: var(--usage-accent); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.usage-description,.usage-entry-note,.usage-correction-note { margin: 8px 0 20px; color: #667382; font-size: 13px; line-height: 1.8; }
+.phd .usage-description,.phd .usage-entry-note,.phd .usage-correction-note { color: #667382; }
+.usage-dialog label { display: block; min-width: 0; font-size: 13px; line-height: 1.6; }
+.usage-batch { margin-bottom: 18px; }
+.usage-batch label { display: grid; grid-template-columns: 70px minmax(0,1fr); align-items: center; gap: 10px; font-size: 13px; }
+.usage-batch input { margin-top: 0; }
+.usage-batch label > span { padding-left: 7px; color: #667382; font-size: 11px; }
+.usage-dialog input,.usage-dialog select,.usage-dialog textarea { display: block; width: 100%; max-width: 100%; min-width: 0; min-height: 44px; margin-top: 7px; padding: 10px 11px; border: 1px solid var(--usage-edge); border-radius: 5px; background: #667382; color: #667382; font: inherit; font-size: 16px; line-height: 1.4; }
+.phd.usage-dialog input,.phd.usage-dialog select,.phd.usage-dialog textarea { background: #667382; }
+.usage-dialog textarea { resize: vertical; }
+.usage-dialog input::placeholder,.usage-dialog textarea::placeholder { color: #667382; opacity: 1; font-size: 14px; }
+.usage-table { width: 100%; table-layout: fixed; border-collapse: collapse; text-align: left; }
+.usage-table col:nth-child(1) { width: 34%; }
+.usage-table col:nth-child(2) { width: 28%; }
+.usage-table col:nth-child(3) { width: 38%; }
+.usage-table th,.usage-table td { padding: 12px 8px; border-bottom: 1px solid #667382; font-size: 13px; font-weight: 400; line-height: 1.65; overflow-wrap: anywhere; vertical-align: middle; }
+.phd .usage-table th,.phd .usage-table td { border-color: #667382; }
+.usage-table th:first-child,.usage-table td:first-child { padding-left: 0; }
+.usage-table th:last-child,.usage-table td:last-child { padding-right: 0; }
+.usage-table thead th { padding-top: 0; padding-bottom: 10px; color: #667382; font-size: 12px; }
+.phd .usage-table thead th { color: #667382; }
+.usage-table tbody th { color: var(--usage-ink); }
+.usage-table td:nth-child(2) { color: #667382; }
+.phd .usage-table td:nth-child(2) { color: #667382; }
+.usage-measure { display: grid; grid-template-columns: minmax(0,1fr) 72px; gap: 6px; align-items: center; }
+.usage-measure input,.usage-measure select { margin: 0; min-height: 40px; padding: 8px; }
+.usage-measure select { font-size: 13px; }
+.usage-entry-note { margin: 9px 0 15px; font-size: 11px; }
+.usage-optional,.usage-history-fold { margin-top: 15px; }
+.usage-optional > summary,.usage-names > summary,.usage-history-fold > summary { padding: 5px 0; color: #667382; font-size: 12px; line-height: 1.8; cursor: pointer; }
+.phd .usage-optional > summary,.phd .usage-names > summary,.phd .usage-history-fold > summary { color: #667382; }
+.usage-optional[open] > summary { margin-bottom: 12px; }
+.usage-names > div { display: grid; gap: 12px; margin-top: 12px; }
+.usage-extra { display: grid; gap: 16px; }
+.usage-extra > label:first-child { max-width: 310px; }
+.usage-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 10px; margin: 19px 0 0; padding-top: 16px; border-top: 1px solid var(--usage-edge); }
+.usage-footer p { flex: 1 1 220px; margin: 0; color: #667382; font-size: 12px; line-height: 1.8; }
+.phd .usage-footer p { color: #667382; }
+.usage-footer > div { display: flex; flex-wrap: wrap; gap: 10px; }
+.usage-save,.usage-secondary,.usage-correct { min-height: 42px; padding: 9px 14px; border: 1px solid var(--usage-edge); border-radius: 5px; background: transparent; color: var(--usage-ink); font: inherit; font-size: 13px; line-height: 1.6; }
+.usage-save { border-color: var(--usage-accent); background: var(--usage-accent); color: #fff; font-weight: 600; }
+.phd .usage-save { color: #fff; }
+.usage-new { margin: 2px 0 4px; }
+.usage-error,.usage-notice { margin: 14px 0 20px; padding: 12px 14px; border-radius: 6px; color: #b42318; background: #fff1ef; font-size: 13px; line-height: 1.8; overflow-wrap: anywhere; }
+.usage-notice { color: #267843; background: #eef8f0; }
+.usage-history { margin-top: 18px; }
+.usage-history-fold { border-top: 1px solid var(--usage-edge); padding-top: 12px; }
+.usage-history-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 14px; }
+.usage-history-heading h3 { margin: 0; font-size: 17px; font-weight: 550; }
+.usage-history-heading > span { color: #667382; font-size: 12px; }
+.usage-empty { margin: 18px 0; color: #667382; font-size: 14px; line-height: 1.8; }
+.usage-record { margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--usage-edge); }
+.usage-record:first-child { margin-top: 0; }
+.usage-record header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
+.usage-record h3 { margin: 0; min-width: 0; color: #667382; font-size: 14px; font-weight: 550; line-height: 1.6; overflow-wrap: anywhere; }
+.usage-record-status { color: #667382; font-size: 11px; }
+.usage-record-status.current { color: var(--usage-accent); }
+.usage-record-time,.usage-record-chain { margin: 7px 0 12px; color: #667382; font-size: 11px; line-height: 1.8; }
+.phd .usage-record-time,.phd .usage-record-chain { color: #667382; }
+.usage-history-table td:last-child,.usage-history-table thead th:last-child { text-align: right; }
+.usage-record-note { margin: 9px 0; color: #667382; font-size: 13px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
+.phd .usage-record-note { color: #667382; }
+.usage-record-note-details { margin: 8px 0 2px; }
+.usage-record-note-details > summary { width: fit-content; max-width: 100%; padding: 5px 0; color: #667382; font-size: 12px; line-height: 1.8; cursor: pointer; }
+.phd .usage-record-note-details > summary { color: #667382; }
+.usage-record-note-details[open] > summary { color: var(--usage-accent); }
+.usage-record-note-details > .usage-record-note { margin: 7px 0 10px; padding-left: 12px; border-left: 2px solid var(--usage-edge); }
+.usage-correct { min-height: 34px; margin-top: 10px; padding: 5px 10px; font-size: 12px; }
+.usage-dialog button:disabled,.usage-dialog input:disabled,.usage-dialog select:disabled,.usage-dialog textarea:disabled { opacity: .6; cursor: default; }
+.usage-dialog :focus-visible,.usage-open:focus-visible,.usage-history-open:focus-visible { outline: 3px solid var(--usage-accent,#667382); outline-offset: 3px; }
+.usage-visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 600px) {
+  .usage-dialog { width: calc(100vw - 20px); max-width: calc(100vw - 20px); max-height: calc(100dvh - 20px); border-radius: 10px; }
+  .usage-heading { padding: 17px 16px; gap: 10px; }
+  .usage-heading h2 { font-size: 20px; }
+  .usage-close { padding: 7px 10px; gap: 8px; font-size: 12px; }
+  .usage-content { padding: 16px 13px 20px; }
+  .usage-table col:nth-child(1) { width: 28%; }
+  .usage-table col:nth-child(2) { width: 27%; }
+  .usage-table col:nth-child(3) { width: 45%; }
+  .usage-table th,.usage-table td { padding: 10px 5px; font-size: 12px; }
+  .usage-table thead th { font-size: 11px; }
+  .usage-measure { grid-template-columns: minmax(0,1fr) 62px; gap: 4px; }
+  .usage-measure input,.usage-measure select { padding: 8px 6px; }
+  .usage-extra > label:first-child { max-width: 100%; }
+  .usage-footer { align-items: flex-start; }
+  .usage-save { flex: 1; }
+}
+@media print { .usage-actions,.usage-dialog { display: none !important; } }
+
+/* The same editor and save workflow also live directly inside recipe cards. */
+.recipe-ratio-summary { margin: 10px 0 20px; color: #667382; font-size: 14px; line-height: 1.65; overflow-wrap: anywhere; }
+.recipe-ratio-summary strong { font-size: 17px; font-weight: 550; }
+.recipe-ratio-summary small { display: block; margin-top: 4px; color: #667382; font-size: 12px; }
+.phd .recipe-ratio-summary { color: #667382; }
+.phd .recipe-ratio-summary small { color: #667382; }
+.usage-inline { display: block; width: 100%; max-width: 100%; max-height: none; border: 0; border-radius: 0; background: transparent; box-shadow: none; overflow: visible; }
+.usage-inline.phd { background: transparent; }
+.usage-inline .usage-content { padding: 0; }
+.usage-inline .usage-footer { justify-content: flex-start; }
+.usage-inline .usage-footer [data-usage-status] { flex-basis: 100%; color: #667382; font-size: 12px; }
+.usage-inline [data-usage-status]:empty { display: none; }
+.usage-inline .usage-batch:has(input[readonly]) { display: none; }
+.usage-inline .usage-batch label { grid-template-columns: 65px minmax(0,1fr); }
+.usage-table col:nth-child(1) { width: 40%; }
+.usage-table col:nth-child(2) { width: 60%; }
+.usage-table td:nth-child(2) { color: inherit; }
+.usage-field-error { display: block; color: #b42318; font-size: 12px; }
+.usage-field-error:empty { display: none; }
+.inline-saved-notice { color: #667382; font-size: 13px; }
+.record-table th:first-child,.record-table td:first-child { width: 40%; }
+.record-table th:last-child,.record-table td:last-child { width: 60%; }
+@media (max-width:600px) {
+  .usage-inline { width: 100%; max-width: 100%; max-height: none; }
+  .usage-inline .usage-content { padding: 0; }
+  .usage-table col:nth-child(1) { width: 33%; }
+  .usage-table col:nth-child(2) { width: 67%; }
+  .usage-inline .usage-measure { grid-template-columns: minmax(0,1fr) 58px; }
+  .usage-inline input::placeholder { font-size: 12px; }
+}
+
+/* Compact light controls aligned with Tabler. */
+.usage-dialog,.usage-dialog.phd{--usage-accent:#206bc4;--usage-edge:#dce1e7;--usage-wash:#fff;--usage-ink:#243448;color:#243448;background:#fff}
+.usage-inline,.usage-inline.phd{background:transparent;box-shadow:none}.usage-dialog input,.usage-dialog select,.usage-dialog textarea{color:#243448;background:#fff;border-color:#dce1e7}.usage-dialog input::placeholder,.usage-dialog textarea::placeholder{color:#8a96a6}.usage-table th,.usage-table td,.phd .usage-table th,.phd .usage-table td{border-color:#edf0f4;font-size:13px}.usage-table tbody th{font-weight:400}.usage-table thead th{font-weight:400;font-size:12px}.usage-measure input,.usage-measure select{min-height:36px;padding:6px 8px}.usage-save,.usage-secondary,.usage-correct,.usage-delete{min-height:35px;font-size:12px;padding:6px 10px;border-radius:5px}.usage-save,.phd .usage-save{background:#206bc4;border-color:#206bc4;color:#fff;font-weight:500}.usage-save:hover{background:#18599f;color:#fff}.usage-delete{color:#b42318;border:1px solid #efd0ce;background:#fff}.usage-delete:hover{background:#fff1ef;color:#b42318}.usage-secondary{background:#fff;color:#526477}.usage-footer{gap:8px;margin-top:15px;padding-top:13px}.usage-delete-confirm{padding:13px;margin-top:12px;border:1px solid #efd0ce;border-radius:5px;background:#fff7f6}.usage-delete-confirm p{font-size:13px;color:#8e2d25;margin:0 0 10px}.usage-delete-confirm button+button{margin-left:8px}.recipe-ratio-summary,.phd .recipe-ratio-summary{color:#344255;font-size:12px;margin:10px 0 14px}.recipe-ratio-summary strong{font-size:14px;font-weight:500}.recipe-ratio-summary small,.phd .recipe-ratio-summary small{color:#758194;font-size:11px}.usage-record h3{color:#344255}.usage-field-error{color:#b42318}.usage-footer [data-usage-status]{color:#936216!important}.usage-notice,.inline-saved-notice{color:#267843}.usage-error{color:#b42318}.usage-description,.usage-entry-note{color:#758194}.usage-table col:nth-child(1){width:37%}.usage-table col:nth-child(2){width:63%}@media(max-width:600px){.usage-save{flex:0 1 auto}.usage-footer{gap:6px}.usage-measure input{font-size:16px}.usage-inline .usage-measure{grid-template-columns:minmax(0,1fr) 58px}.usage-table th,.usage-table td{font-size:12px}.usage-delete-confirm button{min-height:38px}}
+.phd.usage-dialog input,.phd.usage-dialog select,.phd.usage-dialog textarea{background:#fff;color:#243448}
+
+/* Larger record typography and touch targets. */
+.usage-dialog{font-size:16px;line-height:1.8}.usage-dialog label{font-size:16px}.usage-dialog input,.usage-dialog select,.usage-dialog textarea{font-size:17px;min-height:45px;padding:10px 12px}.usage-measure{grid-template-columns:minmax(0,1fr) 82px;gap:9px}.usage-measure input,.usage-measure select{margin-top:0}.usage-table th,.usage-table td,.phd .usage-table th,.phd .usage-table td{font-size:16px;padding:16px 9px;line-height:1.85}.usage-table thead th,.phd .usage-table thead th{font-size:15px;padding-bottom:14px}.usage-entry-note{font-size:14px;margin:14px 0 22px}.recipe-ratio-summary,.phd .recipe-ratio-summary{font-size:16px;margin:16px 0 23px;line-height:1.8}.recipe-ratio-summary strong{font-size:18px}.recipe-ratio-summary small,.phd .recipe-ratio-summary small{font-size:14px;margin-top:7px}.usage-optional>summary,.usage-names>summary,.usage-history-fold>summary,.phd .usage-optional>summary,.phd .usage-names>summary,.phd .usage-history-fold>summary,.usage-record-note-details>summary{font-size:15px;padding:8px 0}.usage-footer{gap:10px;margin-top:24px;padding-top:20px}.usage-save,.usage-secondary,.usage-correct,.usage-delete{font-size:15px!important;min-height:43px;padding:9px 13px!important}.usage-record{padding-top:23px;margin-top:24px}.usage-record h3{font-size:19px;line-height:1.8}.usage-record-time,.phd .usage-record-time{font-size:14px;margin:10px 0 20px}.usage-record-status{font-size:13px}.usage-record-note{font-size:16px;line-height:1.85}.usage-history-delete{margin:10px 0 0 10px}.usage-history-delete:first-of-type{margin-left:0}.usage-delete-confirm{padding:18px;margin-top:18px}.usage-delete-confirm p{font-size:16px;line-height:1.8}.usage-notice,.usage-error,.inline-saved-notice{font-size:15px}.usage-history-fold{margin-top:23px;padding-top:17px}.usage-inline .usage-batch label{grid-template-columns:80px minmax(0,1fr)}
+@media(max-width:600px){.usage-table th,.usage-table td,.phd .usage-table th,.phd .usage-table td{font-size:15px;padding:14px 6px}.usage-table thead th,.phd .usage-table thead th{font-size:14px}.usage-inline .usage-measure{grid-template-columns:minmax(0,1fr) 65px;gap:5px}.usage-measure input,.usage-measure select{font-size:16px;padding:9px 7px}.usage-dialog input::placeholder{font-size:14px}.recipe-ratio-summary strong{font-size:17px}.recipe-ratio-summary small,.phd .recipe-ratio-summary small{font-size:13px}.usage-record h3{font-size:18px}.usage-save,.usage-secondary,.usage-correct,.usage-delete{font-size:14px!important;padding:9px 11px!important}.usage-footer{gap:8px}.usage-optional>summary,.usage-history-fold>summary{font-size:14px}}
+.usage-saved-label{margin:0 0 12px;color:#27834a;font-size:14px}.usage-saved-table td[data-saved-quantity]{color:#243448;font-size:18px;font-weight:500;font-variant-numeric:tabular-nums;white-space:normal;overflow-wrap:anywhere}.usage-saved-table td[data-saved-quantity] span{font-size:15px;font-weight:400;color:#667382}.usage-saved .usage-footer{margin-top:20px}.usage-saved-table th{overflow-wrap:anywhere}.usage-saved>.usage-record-note{margin-top:18px}@media(max-width:600px){.usage-saved-table td[data-saved-quantity]{font-size:17px}.usage-saved-table td[data-saved-quantity] span{font-size:14px}}
+
+.recipe-materials.single-experiment{display:block;max-width:960px;margin:0 auto}.group-tabs{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 28px}.group-tabs button{padding:12px 18px!important;white-space:normal;text-align:left}.group-tabs button[aria-pressed="true"]{background:#eaf3ff;color:#206bc4;border-color:#206bc4}.group-status{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px}.group-status[data-group-status="completed"]>strong{color:#27834a}

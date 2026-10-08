@@ -1,0 +1,3 @@
+Tabler 1.5.1 / https://github.com/tabler/tabler / https://preview.tabler.io/tasks.html
+CSS https://cdn.jsdelivr.net/npm/@tabler/core@1.5.1/dist/css/tabler.min.css
+MIT; local CSS only.

@@ -1,0 +1,529 @@
+{
+  "revision": 57,
+  "generated_at_label": "2026年10月8日 17:59",
+  "active": {
+    "title": "本批硬碳90:5:5 · 四组共用浆料",
+    "mixing_observation": "本批调浆与四组制样已完成，用户报告均匀凝胶状；300℃Ar处理操作已完成，结果待补充。",
+    "progress_label": "温度比较部分完成：仅300℃组确认处理完成；80℃明细待补，350℃/400℃未确认执行。",
+    "coating_setting_um": "20",
+    "entries": [
+      {
+        "name": "硬碳",
+        "quantity": "900.3",
+        "unit": "mg"
+      },
+      {
+        "name": "Super P",
+        "quantity": "49.8",
+        "unit": "mg"
+      },
+      {
+        "name": "CMC",
+        "quantity": "49.7",
+        "unit": "mg"
+      },
+      {
+        "name": "屈臣氏蒸馏水；预搅拌2 mL＋合浆补水1 mL",
+        "quantity": "3",
+        "unit": "mL"
+      }
+    ],
+    "calculations": {
+      "total_solids_mg": "999.80",
+      "solids_pct": "25.00",
+      "cmc_solution_pct": "2.42",
+      "stage_water_mismatch": false,
+      "assumptions": "理论计算：原料按干料计、水密度暂按1 g/mL，忽略挥发与转移损失；不是实测固含量。"
+    }
+  },
+  "records": [
+    {
+      "record_id": "HC-EVENT-CLAMP-20260920",
+      "category": "处理与结果",
+      "title": "350℃空气热处理 · 夹子＋两块刚玉板",
+      "status": "步骤已执行 · 失败",
+      "fields": [
+        [
+          "步骤状态",
+          "步骤已执行"
+        ],
+        [
+          "初始干燥状态",
+          "用户报告干燥后不掉粉；非定量剥离合格"
+        ],
+        [
+          "用户报告的处理温度 ℃",
+          "350"
+        ],
+        [
+          "用户报告气氛",
+          "air"
+        ],
+        [
+          "是否通保护气",
+          "否"
+        ],
+        [
+          "装样模式",
+          "夹子＋两板"
+        ],
+        [
+          "G1 机械连接",
+          "失败"
+        ],
+        [
+          "擦拭 / 剥离方法与判据",
+          "用户定性擦拭；力度、次数未报告"
+        ],
+        [
+          "掉粉 / 脱落",
+          "用户补充：之前空气热处理出现严重掉渣；原因仍待验证。"
+        ]
+      ],
+      "stages": [],
+      "entries": []
+    },
+    {
+      "record_id": "HC-EVENT-SELFWEIGHT-20260920",
+      "category": "处理与结果",
+      "title": "350℃空气热处理 · 上刚玉板自重压持",
+      "status": "已报告开展，结果待反馈 · 结果待补充",
+      "fields": [
+        [
+          "步骤状态",
+          "已报告开展，结果待反馈"
+        ],
+        [
+          "用户报告的处理温度 ℃",
+          "350"
+        ],
+        [
+          "用户报告气氛",
+          "air"
+        ],
+        [
+          "是否通保护气",
+          "否"
+        ],
+        [
+          "装样模式",
+          "仅上板自重"
+        ]
+      ],
+      "stages": [],
+      "entries": []
+    },
+    {
+      "record_id": "HC-MATERIAL-PR-20260920",
+      "category": "材料核验",
+      "title": "现有酚醛树脂",
+      "status": "已有",
+      "fields": [
+        [
+          "材料是否已有",
+          "已有"
+        ]
+      ],
+      "stages": [],
+      "entries": []
+    },
+    {
+      "record_id": "HC-TREATMENT-20260921-300",
+      "category": "处理与结果",
+      "title": "HC-300℃-0.5h · Ar处理已完成，结果待补充",
+      "status": "步骤已执行 · 结果待补充",
+      "fields": [
+        [
+          "步骤状态",
+          "步骤已执行"
+        ],
+        [
+          "实际前驱体及配比（不能从候选推定）",
+          "硬碳/Super P/CMC，设计90:5:5；同批总实称见配浆记录"
+        ],
+        [
+          "实际集流体 / 厚度 / 涂碳 / 预处理",
+          "铝集流体；厚度、涂碳与涂布面数未报告"
+        ],
+        [
+          "用户报告的处理温度 ℃",
+          "300"
+        ],
+        [
+          "用户报告气氛",
+          "Ar"
+        ],
+        [
+          "是否通保护气",
+          "是"
+        ],
+        [
+          "炉内位置 / 装载量",
+          "1片70×70 mm大极片＋5片φ12 mm圆片（1–5号）；空白参照是否同炉未知"
+        ],
+        [
+          "记录的程序是否已执行",
+          "是"
+        ]
+      ],
+      "stages": [
+        {
+          "title": "本次Ar管式炉处理 · 用户报告实际",
+          "fields": [
+            [
+              "阶段",
+              "后处理"
+            ],
+            [
+              "温度 ℃",
+              "300"
+            ],
+            [
+              "升温 ℃/min",
+              "5"
+            ],
+            [
+              "保温 min",
+              "30"
+            ],
+            [
+              "气氛",
+              "Ar"
+            ]
+          ]
+        }
+      ],
+      "entries": [],
+      "specimens": [
+        {
+          "id": "S-HC-20260921-300-L",
+          "name": "HC-300℃-0.5h · 大极片",
+          "role": "处理样片",
+          "shape": "矩形",
+          "length_mm": "70",
+          "width_mm": "70",
+          "mass_before_g": "0.2861",
+          "mass_after_g": null,
+          "blank_mass_g": null,
+          "cofired": "是"
+        },
+        {
+          "id": "S-HC-20260921-300-D1",
+          "name": "HC-300℃-0.5h · 1号圆片",
+          "role": "处理样片",
+          "shape": "圆片",
+          "diameter_mm": "12",
+          "mass_before_g": "0.0098",
+          "mass_after_g": null,
+          "blank_mass_g": null,
+          "cofired": "是"
+        },
+        {
+          "id": "S-HC-20260921-300-D2",
+          "name": "HC-300℃-0.5h · 2号圆片",
+          "role": "处理样片",
+          "shape": "圆片",
+          "diameter_mm": "12",
+          "mass_before_g": "0.0092",
+          "mass_after_g": null,
+          "blank_mass_g": null,
+          "cofired": "是"
+        },
+        {
+          "id": "S-HC-20260921-300-D3",
+          "name": "HC-300℃-0.5h · 3号圆片",
+          "role": "处理样片",
+          "shape": "圆片",
+          "diameter_mm": "12",
+          "mass_before_g": "0.0072",
+          "mass_after_g": null,
+          "blank_mass_g": null,
+          "cofired": "是"
+        },
+        {
+          "id": "S-HC-20260921-300-D4",
+          "name": "HC-300℃-0.5h · 4号圆片",
+          "role": "处理样片",
+          "shape": "圆片",
+          "diameter_mm": "12",
+          "mass_before_g": "0.0103",
+          "mass_after_g": null,
+          "blank_mass_g": null,
+          "cofired": "是"
+        },
+        {
+          "id": "S-HC-20260921-300-D5",
+          "name": "HC-300℃-0.5h · 5号圆片",
+          "role": "处理样片",
+          "shape": "圆片",
+          "diameter_mm": "12",
+          "mass_before_g": "0.0088",
+          "mass_after_g": null,
+          "blank_mass_g": null,
+          "cofired": "是"
+        },
+        {
+          "id": "REF-HC-20260921-300-AL12",
+          "name": "φ12 mm空白铝片参照",
+          "role": "空白参照片",
+          "shape": "圆片",
+          "diameter_mm": "12",
+          "mass_before_g": "0.0051",
+          "mass_after_g": null,
+          "cofired": null
+        }
+      ],
+      "mass_summary": [
+        {
+          "id": "S-HC-20260921-300-L",
+          "area_cm2": "49.00",
+          "mass_before_mg": "286.10",
+          "estimated_coating_mg": null,
+          "estimated_coating_mg_cm2": null,
+          "estimated_hc_mg_cm2": null,
+          "whole_electrode_loss_pct": null
+        },
+        {
+          "id": "S-HC-20260921-300-D1",
+          "area_cm2": "1.13",
+          "mass_before_mg": "9.80",
+          "estimated_coating_mg": "4.70",
+          "estimated_coating_mg_cm2": "4.16",
+          "estimated_hc_mg_cm2": "3.74",
+          "whole_electrode_loss_pct": null
+        },
+        {
+          "id": "S-HC-20260921-300-D2",
+          "area_cm2": "1.13",
+          "mass_before_mg": "9.20",
+          "estimated_coating_mg": "4.10",
+          "estimated_coating_mg_cm2": "3.63",
+          "estimated_hc_mg_cm2": "3.26",
+          "whole_electrode_loss_pct": null
+        },
+        {
+          "id": "S-HC-20260921-300-D3",
+          "area_cm2": "1.13",
+          "mass_before_mg": "7.20",
+          "estimated_coating_mg": "2.10",
+          "estimated_coating_mg_cm2": "1.86",
+          "estimated_hc_mg_cm2": "1.67",
+          "whole_electrode_loss_pct": null
+        },
+        {
+          "id": "S-HC-20260921-300-D4",
+          "area_cm2": "1.13",
+          "mass_before_mg": "10.30",
+          "estimated_coating_mg": "5.20",
+          "estimated_coating_mg_cm2": "4.60",
+          "estimated_hc_mg_cm2": "4.14",
+          "whole_electrode_loss_pct": null
+        },
+        {
+          "id": "S-HC-20260921-300-D5",
+          "area_cm2": "1.13",
+          "mass_before_mg": "8.80",
+          "estimated_coating_mg": "3.70",
+          "estimated_coating_mg_cm2": "3.27",
+          "estimated_hc_mg_cm2": "2.95",
+          "whole_electrode_loss_pct": null
+        },
+        {
+          "id": "REF-HC-20260921-300-AL12",
+          "area_cm2": "1.13",
+          "mass_before_mg": "5.10",
+          "estimated_coating_mg": null,
+          "estimated_coating_mg_cm2": null,
+          "estimated_hc_mg_cm2": null,
+          "whole_electrode_loss_pct": null
+        }
+      ]
+    },
+    {
+      "record_id": "HC-TREATMENT-20260921-350",
+      "category": "处理与结果",
+      "title": "HC-350℃-0.5h · 后续计划（未确认执行）",
+      "status": "确认计划 · 结果待补充",
+      "fields": [
+        [
+          "步骤状态",
+          "确认计划"
+        ],
+        [
+          "实际前驱体及配比（不能从候选推定）",
+          "硬碳/Super P/CMC，设计90:5:5；同批总实称见配浆记录"
+        ]
+      ],
+      "stages": [
+        {
+          "title": "后续Ar保护热处理 · 确认计划",
+          "fields": [
+            [
+              "阶段",
+              "后处理"
+            ],
+            [
+              "温度 ℃",
+              "350"
+            ],
+            [
+              "升温 ℃/min",
+              "5"
+            ],
+            [
+              "保温 min",
+              "30"
+            ],
+            [
+              "气氛",
+              "Ar"
+            ]
+          ]
+        }
+      ],
+      "entries": []
+    },
+    {
+      "record_id": "HC-TREATMENT-20260921-400",
+      "category": "处理与结果",
+      "title": "HC-400℃-0.5h · 后续计划（未确认执行）",
+      "status": "确认计划 · 结果待补充",
+      "fields": [
+        [
+          "步骤状态",
+          "确认计划"
+        ],
+        [
+          "实际前驱体及配比（不能从候选推定）",
+          "硬碳/Super P/CMC，设计90:5:5；同批总实称见配浆记录"
+        ]
+      ],
+      "stages": [
+        {
+          "title": "后续Ar保护热处理 · 确认计划",
+          "fields": [
+            [
+              "阶段",
+              "后处理"
+            ],
+            [
+              "温度 ℃",
+              "400"
+            ],
+            [
+              "升温 ℃/min",
+              "5"
+            ],
+            [
+              "保温 min",
+              "30"
+            ],
+            [
+              "气氛",
+              "Ar"
+            ]
+          ]
+        }
+      ],
+      "entries": []
+    },
+    {
+      "record_id": "HC-TREATMENT-20260921-80",
+      "category": "处理与结果",
+      "title": "HC-80℃ · 具体执行明细待补充",
+      "status": "确认计划 · 结果待补充",
+      "fields": [
+        [
+          "步骤状态",
+          "确认计划"
+        ],
+        [
+          "实际前驱体及配比（不能从候选推定）",
+          "硬碳/Super P/CMC，设计90:5:5；同批总实称见配浆记录"
+        ],
+        [
+          "初始干燥状态",
+          "分组制样已完成；80℃具体干燥/处理状态未补充，不能据名称判断已做或未做。"
+        ]
+      ],
+      "stages": [
+        {
+          "title": "后续Ar保护热处理 · 确认计划",
+          "fields": [
+            [
+              "阶段",
+              "后处理"
+            ],
+            [
+              "温度 ℃",
+              "80"
+            ],
+            [
+              "升温 ℃/min",
+              "5"
+            ],
+            [
+              "保温 min",
+              "30"
+            ],
+            [
+              "气氛",
+              "Ar"
+            ]
+          ]
+        }
+      ],
+      "entries": []
+    },
+    {
+      "record_id": "HC-PREPARATION-20260921-001",
+      "category": "制备过程",
+      "title": "本批制浆与涂膜（已完成）",
+      "status": "制备操作已报告完成",
+      "fields": [
+        [
+          "溶剂",
+          "屈臣氏蒸馏水"
+        ],
+        [
+          "CMC预搅拌加水 mL",
+          "2"
+        ],
+        [
+          "CMC预搅拌时间 h（可填范围）",
+          "12–16"
+        ],
+        [
+          "搅拌温度（原文）",
+          "室温（未报告具体温度）"
+        ],
+        [
+          "搅拌转速 rpm",
+          "300"
+        ],
+        [
+          "粉料预混",
+          "硬碳与Super P在另一个容器物理预混，再加入CMC预搅拌液；设备与时长未报告。"
+        ],
+        [
+          "加粉后补水 mL",
+          "1"
+        ],
+        [
+          "加粉后搅拌 h",
+          "4"
+        ],
+        [
+          "涂膜设定 μm（非实测干膜厚度）",
+          "20"
+        ],
+        [
+          "浆料观察",
+          "均匀、凝胶状（用户定性观察，未测流变或分散度）。"
+        ]
+      ],
+      "stages": [],
+      "entries": []
+    }
+  ]
+}
